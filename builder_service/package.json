@@ -1,0 +1,24 @@
+{
+  "name": "builder-service",
+  "version": "1.0.0",
+  "description": "A service to build and bundle JavaScript code with specified npm modules.",
+  "main": "builder_service/builder.js",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "test": "node ../builder_test/test.js"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.13.1",
+    "firebase-admin": "^12.6.0",
+    "hono": "^4.6.3",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "@types/uuid": "^10.0.0",
+    "rollup": "^2.38.5",
+    "tsx": "^4.7.1"
+  },
+  "author": "",
+  "license": "ISC"
+}
